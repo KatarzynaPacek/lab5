@@ -6,7 +6,17 @@
 - Rozszerz ją o metodę statyczną `accuracy()`, przyjmującą wektor obiektów klasy `Prediction`, informującą o tym, w jakim odsetku ich zmienne `label` i `prediction` mają tę samą wartość.
 */
 
-class Prediction : Sample
+class Prediction 
+	: public Sample
 {
+	
+public:
+	int prediction;
+	static double accuracy(vector<Prediction*> Arg);
+
 
 };
+
+
+
+
