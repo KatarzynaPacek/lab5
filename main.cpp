@@ -230,15 +230,4 @@ vector <Prediction *> knn(Dataset *train, Dataset *test, int k)
 	}
 
 
-	//czyli prediction jest to label ktory powtarza sie najczesciej wsrod znalezionych
-	//dla kazdego obiektu w wektorze predictions 
-	// zdnajdz k czyli 3 obiekty ze zbioru train 
-	//ktorego cechy features znajduja sie od niego w najmnijeszej odleglosci
-
-
-
-
-
-	//for(int i = 0; i < test.size() ; ++i) // petla w ktorej wypelniamy predictions obiektami z test
-	
 
